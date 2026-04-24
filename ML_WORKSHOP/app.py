@@ -100,7 +100,7 @@ st.markdown(
 # Title and description
 st.markdown("<div class='title'>Spam Mail Detection</div>", unsafe_allow_html=True)
 st.write(
-    "Welcome to the Spam Mail Detection app! Enter your email id text below to check if it’s spam or not . "
+    "Welcome to the Spam Mail Detection app! Enter your email id text below to check if it’s spam or not spam . "
     "The app uses a machine learning model to classify the email as 'Spam' or 'Ham'."
 )
 
