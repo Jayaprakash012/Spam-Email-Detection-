@@ -111,7 +111,7 @@ input_text = st.text_area("Email Text", height=300)
 result_placeholder = st.empty()
 
 # When the user clicks the "Predict" button
-if st.button('Predict'):
+if st.button('Predict the output'):
     if input_text:
         with st.spinner('Classifying...'):
             result = predict_spam(input_text)
